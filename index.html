@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="rows">
+		<div class="squares moves" id="rock">
+			<img src="images/rock.png" alt="0">
+		</div>
+		<div class="squares moves" id="paper">
+			<img src="images/paper.png" alt="1">
+		</div>
+		<div class="squares moves" id="scissors">
+			<img src="images/scissors.png" alt="2">
+		</div>
+		
+		<div class="squares" id="scores">
+			<h2>Scores</h2>
+			<div class="scores">Player</div>
+			<div class="scores">Computer</div>
+			<div class="scores" id="player">0</div>
+			<div class="scores" id="computer">0</div>
+		</div>
+	</div>
+	<div class="rows">
+		<div class="info">
+			<div id="Player">
+				Player move: 
+			</div>
+			<div id="Computer">
+				Computer move: 
+			</div>
+			<div id="result">
+				
+			</div>
+		</div>
+		<div class="btn">
+			<label for="reset"></label>
+			<button id="reset">reset scores</button>
+		</div>
+	</div>
+</body>
+</html>
